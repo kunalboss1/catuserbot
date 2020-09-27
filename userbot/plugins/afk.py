@@ -78,8 +78,8 @@ async def on_afk(event):
     if USERAFK_ON and not (await event.get_sender()).bot:
         msg = None
         message_to_reply = (
-            f"__My Master Has Been In afk For__ `{total_afk_time}`\nWhere He Is: ONLY GOD KNOWS "
-            + f"\n\n__I promise He'll back in a few light years__\n**REASON**: {reason}"
+            f"__My Master is unavailable right now for__ `{total_afk_time}`\nWhere She Is: ONLY HER PARENTS KNOWS "
+            + f"\n\n__I promise She'll be back in a few hours__\n**REASON**: {reason}"
             if reason
             else f"**Heya!**\n__I am currently unavailable. Since when, you ask? For {total_afk_time} I guess.__\n\nWhen will I be back? Soon __Whenever I feel like it__**( ಠ ʖ̯ ಠ)**  "
         )
