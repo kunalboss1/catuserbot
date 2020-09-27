@@ -30,7 +30,7 @@ async def _(event):
             f"{DEFAULTUSER}.\n"
             "__Let's make this smooth and let me know why you are really here.__\n"
             "**Choose one of the following reasons why you are here:**\n\n"
-            "`a`. To chat with my master. (This must be important)\n"
+            "`a`. To chat with my master(This must be important).\n"
             "`b`. To spam my master's inbox.\n"
             "`c`. To enquire something\n"
             "`d`. To request something\n"
@@ -42,7 +42,7 @@ async def _(event):
         )
         TWO = " `███████▄▄███████████▄  \n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓███░░░░░░░░░░░░█\n██████▀▀▀█░░░░██████▀  \n░░░░░░░░░█░░░░█  \n░░░░░░░░░░█░░░█  \n░░░░░░░░░░░█░░█  \n░░░░░░░░░░░█░░█  \n░░░░░░░░░░░░▀▀ `\n\n**So uncool, this is not your home. Go bother someone else. You have been blocked and reported until further notice.**"
         FOUR = "__Okay. My madam has not seen your message yet. She usually responds to people,though idk about retarted ones.__\n __She'll respond when she comes back, if she wants to. There's already a lot of pending messages😶__\n **Please do not spam unless you wish to be blocked and reported.**"
-        FIVE = "`Okay. please have the basic manners as to not bother my master too much. If he wishes to help you, he will respond to you soon.`\n**Do not ask repeatdly else you will be blocked and reported.**"
+        FIVE = "`Okay. please have the basic manners as to not bother my master too much. If she wishes to help you, she will respond to you soon.`\n**Do not ask repeatdly else you will be blocked and reported.**"
         LWARN = "**This is your last warning. DO NOT send another message else you will be blocked and reported. Keep patience. My master will respond you ASAP.**\n__Use__ `/start` __to go back to the main menu.__"
 
         async with borg.conversation(chat) as conv:
