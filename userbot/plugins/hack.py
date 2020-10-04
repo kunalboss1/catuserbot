@@ -27,8 +27,16 @@ async def _(event):
         else:
             await event.edit("Hacking..")
             animation_chars = [
-                "`Connecting To Hacked Private Server...`",
+                "`Connecting To Your Hacked Private Server...`",
+                "`Check your internet connection: Ping Low`",
+                "`Initiating Advance System Boot`",
                 "`Target Selected.`",
+                "`Fetching IP address....`",
+                "`Target Country: India`",
+                "`Select hack. Good Luck!`",
+                "`Selected Hack: 1. Personal Details.`",
+                "`2. Spy Cam {Dangerous}.`",
+                "`Hack Selected: Spy Cam.`",
                 "`Hacking... 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
                 "`Hacking... 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
                 "`Hacking... 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
@@ -37,7 +45,8 @@ async def _(event):
                 "`Hacking... 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
                 "`Hacking... 84%\n█████████████████████▒▒▒▒ `",
                 "`Hacking... 100%\n█████████HACKED███████████ `",
-                f"`Targeted Account Hacked...\n\nPay 69$ To` {DEFAULTUSER} . `To Remove this hack..`",
+                "`ETA: 6 hours to manipulate.`",
+                f"`Targeted Account Hacked...\n\nYou can pay ₹1000 To` {DEFAULTUSER} . `To deactivate this hack till 6 hours..`",
             ]
             for i in animation_ttl:
                 await asyncio.sleep(animation_interval)
